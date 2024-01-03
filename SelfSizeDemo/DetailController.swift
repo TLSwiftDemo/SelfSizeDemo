@@ -30,7 +30,7 @@ class DetailController: UIViewController {
         tableView.dataSource = self
         self.view.addSubview(tableView)
         
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 500
     }
     
